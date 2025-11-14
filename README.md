@@ -1,6 +1,21 @@
 # Orchestrating Autonomy: Multi-Agent AI Systems Demo
 
-An interactive educational repository for learning about multi-agent AI systems through hands-on Jupyter notebooks. This demo is designed for the talk **"Orchestrating Autonomy: A Deep Dive into Designing Multi-Agent AI Systems"**.
+**By Pranjal Joshi**
+
+An interactive educational repository for learning about multi-agent AI systems through hands-on Jupyter notebooks. This demo is designed for the talk **"Orchestrating Autonomy: Designing Multi-Agent AI Systems"**.
+
+## ⭐ Featured: Production Demo
+
+**[`multi_agent_systems_demo.ipynb`](multi_agent_systems_demo.ipynb)** - A world-class, single-notebook demonstration featuring:
+
+- 🤖 **Real AI agents** powered by OpenAI GPT models
+- 📊 **Interactive visualizations** (Plotly, NetworkX, Mermaid diagrams)
+- 🎨 **CS336-quality presentation** with live execution
+- 🏗️ **Production-ready patterns** (sequential, feedback loops, hierarchical)
+- 💼 **Real-world example**: Multi-agent research and writing team
+- ⚡ **Live demo ready** - perfect for presentations!
+
+> This is a complete, executable demo showcasing multi-agent orchestration with LangGraph and OpenAI.
 
 ## 📚 Overview
 
@@ -18,6 +33,7 @@ This repository provides a comprehensive, hands-on introduction to designing and
 
 ```
 swarm-of-agents/
+├── multi_agent_systems_demo.ipynb              # ⭐ MAIN PRODUCTION DEMO
 ├── notebooks/
 │   ├── 01_intro_to_multi_agent_systems.ipynb       # Fundamentals & core concepts
 │   ├── 02_agent_communication_patterns.ipynb       # Message passing & protocols
@@ -28,18 +44,36 @@ swarm-of-agents/
 │   └── visualization.py                            # Graph & timeline visualizations
 ├── assets/                                          # Generated visualizations
 ├── requirements.txt                                 # Python dependencies
+├── .env.example                                     # API key template
 └── README.md
 ```
 
 ## 🚀 Quick Start
 
-### Prerequisites
+### For the Production Demo (Recommended)
 
-- Python 3.10 or higher
-- pip or conda for package management
-- (Optional) Jupyter Lab or VS Code with Jupyter extension
+1. **Clone and setup**:
+   ```bash
+   git clone https://github.com/YOUR_USERNAME/swarm-of-agents.git
+   cd swarm-of-agents
+   pip install -r requirements.txt
+   ```
 
-### Installation
+2. **Set your OpenAI API key**:
+   - Get an API key from [platform.openai.com](https://platform.openai.com)
+   - Open `multi_agent_systems_demo.ipynb`
+   - Set the API key in the configuration cell
+
+3. **Run the demo**:
+   ```bash
+   jupyter notebook multi_agent_systems_demo.ipynb
+   # or
+   jupyter lab multi_agent_systems_demo.ipynb
+   ```
+
+4. **Execute all cells** and watch the multi-agent system in action!
+
+### For Learning Notebooks
 
 1. **Clone the repository**:
    ```bash
@@ -65,7 +99,7 @@ swarm-of-agents/
    jupyter lab
    ```
 
-5. **Open the notebooks** in the `notebooks/` directory and start learning!
+5. **Start with** `notebooks/01_intro_to_multi_agent_systems.ipynb`
 
 ### Using with LLMs (Optional)
 
